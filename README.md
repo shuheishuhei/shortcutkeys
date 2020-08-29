@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# このアプリについて
+- LineBotです
+- Macのショートカットキーを知ることが出来ます
 
-Things you may want to cover:
+### 概要(Bot basic ID) 
+- @658qwjst
 
-* Ruby version
+### 制作背景(意図)
+- 便利なショートカットキーを手軽に学ぶことができれば良いと考え、botという形を取りました。botの仕組みを知りたいと考え、個人アプリ制作期間に作成しました。
+ 
+### Demo画像
+- https://gyazo.com/30d076239b8a93e1a2abb4186c7face7
+ 
+### 工夫したポイント
+- 1度に2種類のショートカットキーが出現するようにしていますが、カリキュラムで繰り返し学んだ条件分岐を使用し、同じショートカットキーが一度に表示されないようにしました。
 
-* System dependencies
+### 使用技術(開発環境)
+- Ruby on Rails,Ruby,Line Developers,Heroku
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### 課題や今後実装したい機能
+- 現在は適当な文字を入力すれば、Botが返ってくる状態になっています。追加機能として、決まった時間に一つbotが表示される仕組みを作れたらと考えています。
